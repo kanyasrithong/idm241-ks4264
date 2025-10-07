@@ -1,0 +1,38 @@
+@font-face {
+  font-family: Raleway;
+  src: url(/Raleway-VariableFont_wght.ttf);
+}
+
+html {
+  --light-green: #f0fff0;
+  --green: #4A784A;
+
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+  width: 100%;
+
+  background-color: var(--light-green);
+  color: var(--green);
+}
+
+body {
+  align-self: center;
+  margin: 0 3rem;
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  a {
+    color: var(--green);
+    text-decoration: none;
+  }
+
+  a:active {
+    color: var(--green);
+    text-decoration: none;
+  }
+}
