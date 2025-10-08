@@ -19,11 +19,11 @@ html {
 }
 
 body {
-  align-self: center;
-  margin: 0 3rem;
+  margin: 3rem auto;
 
   h1 {
     font-size: 2rem;
+    margin-top: 0;
   }
 
   a {
@@ -31,8 +31,15 @@ body {
     text-decoration: none;
   }
 
+  a:hover {
+      text-decoration: underline;
+  }
+
   a:active {
     color: var(--green);
-    text-decoration: none;
+  }
+
+  img {
+    max-width: 100%;
   }
 }
