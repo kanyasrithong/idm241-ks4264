@@ -3,6 +3,11 @@
   src: url(/Raleway-VariableFont_wght.ttf);
 }
 
+@font-face {
+  font-family: Open Sans;
+  src: url(/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
 html {
   --light-green: #f0fff0;
   --green: #4A784A;
@@ -37,10 +42,6 @@ body {
 
   a:active {
     color: var(--green);
-  }
-
-  img {
-    max-width: 100%;
   }
 
   #menu-options {
