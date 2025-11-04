@@ -1,0 +1,61 @@
+#product-details {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+
+  background-color: white;
+  color: black;
+  font-family: Cera Pro;
+  font-size: 2rem;
+  padding: 6px 8px;
+  width: fit-content;
+}
+
+#product-details div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  transition: color 300ms ease-out;
+
+  svg {
+    height: 48px;
+    transition: transform 300ms ease-out;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+#age-indicator:hover {
+  cursor: pointer;
+}
+
+#age-indicator:hover svg {
+  cursor: pointer;
+  transform: translateY(-4px);
+  transition: transform 300ms ease-out;
+}
+
+#lego-piece-count:hover {
+  cursor: pointer;
+  
+}
+
+#lego-piece-count:hover svg {
+  transform: rotate(25deg);
+  transition: transform 300ms ease-out;
+}
+
+#star-rating:hover {
+  cursor: pointer;
+  color: #FAC400;
+  transition: color 300ms ease-out;
+}
+
+#star-rating:hover svg {
+  cursor: pointer;
+  transform: rotate(144deg);
+  transition: transform 300ms ease-out;
+}
