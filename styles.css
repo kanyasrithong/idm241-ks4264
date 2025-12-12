@@ -57,6 +57,14 @@ body {
     color: var(--green);
   }
 
+  p {
+    line-height: 150%;
+  }
+
+  section {
+    padding-bottom: 1rem;
+  }
+
   .bold {
     font-weight: 600;
   }
